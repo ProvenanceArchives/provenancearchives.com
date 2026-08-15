@@ -45,8 +45,10 @@
     .archive-image { width:100%; display:block; aspect-ratio:3/2; object-fit:cover; border-bottom:1px solid var(--line); background:#e9e3d8; }
     .archive-feature .container { padding-top:82px; }
     .archive-lede { max-width:920px; margin-bottom:48px; }
-    .mwha-mark { margin:0 0 30px; font-family:Georgia,"Times New Roman",serif; }
-    .mwha-mark strong { display:block; font-size:clamp(2rem,5vw,3.35rem); font-weight:normal; line-height:1; letter-spacing:.08em; }
+    .archive-lede > .eyebrow { text-align:center; margin-bottom:12px; }
+    .mwha-mark { margin:0 auto 30px; font-family:Georgia,"Times New Roman",serif; text-align:center; }
+    .mwha-mark strong { display:flex; align-items:center; justify-content:center; gap:18px; color:var(--wine); font-size:clamp(2rem,5vw,3.35rem); font-weight:normal; line-height:1; letter-spacing:.08em; }
+    .mwha-mark strong::before,.mwha-mark strong::after { content:""; width:72px; max-width:14vw; height:1px; background:#a77b42; }
     .mwha-mark span { display:block; margin-top:8px; color:var(--muted); font-size:1rem; font-style:italic; letter-spacing:.02em; }
     .archive-lede h2 { max-width:850px; }
     .archive-lede .lead { max-width:820px; font-family:Georgia,"Times New Roman",serif; font-size:clamp(1.35rem,3vw,2rem); line-height:1.45; margin:0 0 28px; color:#332f2b; }
